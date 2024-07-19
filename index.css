@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fbff0038;
+}
+
+header {
+  background: #da1265;
+  color: #000000;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gioithieu {
+  color: #7317db;
+}
+
+.dichvu {
+  color: #f70000;
+}
+
+.lienhe {
+  color: #ac0365;
+}
+
+#home {
+  background: url("banner.jpg") no-repeat center center/cover;
+  color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #d12b2b;
+}
+
+footer {
+  background: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* styles.css Hiệu Ứng - chuyển động*/
+
+.container {
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 2.5rem;
+  color: #333;
+  display: inline-block;
+  animation: moveAndBounce 4s infinite;
+}
+
+/* Animation */
+@keyframes moveAndBounce {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
